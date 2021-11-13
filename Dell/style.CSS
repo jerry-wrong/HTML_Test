@@ -1,0 +1,203 @@
+/* 全局CSS */
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #cedbe1; */
+}
+.w{
+    width: 1920px;
+    margin: auto;
+
+}
+body{
+    background-color: #cedbe1;
+}
+li{
+    list-style: none;
+}
+.header{
+    height: 106px;
+    background-color: rgb(8, 27, 41);
+    /* background-color: pink; */
+}
+
+.logo{
+    float: left;
+    width: 59px;
+    height: 59px;
+    margin: 24px 36px 20px 47px;
+}
+.logoname{
+    float: left;
+    height: 106px;
+    line-height: 106px;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+.logodata{
+    float:right;
+    height: 106px;
+    width: 212px;
+    background-color: #0b2532;
+ 
+}
+.logodata input
+    {
+        width: 154px;
+        margin-left: 37px;
+        margin-top: 44px;
+        border: 0;
+        background-color: #0b2532;
+        color: #5a9cbc;
+    }
+
+.search{
+    height: 42px;
+    margin-top: 32px;
+    
+}
+.searchname {
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 28px;
+    color: #214859;
+}
+.searchname1 {
+    margin-left: 15px;
+}
+.search input {
+    width: 358px;
+    height: 44px;
+    margin-left: 15px;
+    border-radius: 15px;
+    
+}
+
+.search .searchinput{
+    width: 200px;
+}
+
+.title {
+    width: 1764px;
+    
+    height: 44px;
+    margin-top: 32px; ;
+    padding-left: 156px;
+    /* background-color: pink; */
+
+}
+.title ul li{
+    float: left;
+    margin-left: 90px;
+    font-size: 27px;
+    line-height: 44px;
+    color: #204659;
+    
+}
+.title ul .li1{
+    margin-left: 0px; 
+}
+.info{
+    margin-top: 34px;
+    
+    height: 80px;
+    
+}
+.info .yuan{
+    float: left;
+    height: 56px;
+    width: 56px;
+    margin-top: 20px;
+    border-radius: 56px;
+  
+    background-color: #85b2db;
+    line-height: 56px;
+    color: #fefefe;
+    text-align: center;
+    font-size: 26px;
+}
+.info .xinxi{
+    float: left;
+    width: 1766px;
+    height: 96px;
+    margin-left: 30px;
+    background-color: #ffffff;
+}
+
+.info .xinxi div{
+    float: left;
+    height: 96px;
+}
+.div1 {
+    width: 200px;
+   
+}
+ .xinxi .div2 {
+    width: 272px;
+    
+}
+
+.xinxi .div3 {
+    width: 258px;
+    
+}
+
+.xinxi .div4 {
+    width: 260px;
+    
+}
+
+.div5 {
+    width: 320px;
+  
+}
+
+
+
+
+.info .xinxi .xiaodeng_HD_loading_status_1 {
+    float: left;    
+    height: 44px;
+    width: 44px;
+    margin-top: 28px;
+    margin-left: 34px;
+    border-radius: 22px;
+    background-color: #8cb243;
+}
+.loading_status{
+    float: left;
+    margin-left: 14px;
+    margin-top: 32px;
+    font-size: 26px;
+    color: #214859;
+}
+
+.info .xinxi .xiaodeng_PD_loading_status_1 {
+    float: left;    
+    height: 44px;
+    width: 44px;
+    margin-top: 28px;
+    margin-left: 54px;
+    border-radius: 22px;
+    background-color: #dcca78;
+}
+/* 第二列information */
+.info .xinxi .xiaodeng_HD_loading_status_2 {
+    float: left;    
+    height: 44px;
+    width: 44px;
+    margin-top: 28px;
+    margin-left: 34px;
+    border-radius: 22px;
+    background-color: #a0a0a0;
+}
+.info .xinxi .xiaodeng_PD_loading_status_2 {
+    float: left;    
+    height: 44px;
+    width: 44px;
+    margin-top: 28px;
+    margin-left: 54px;
+    border-radius: 22px;
+    background-color: #a0a0a0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>动画序列</title>
+    <!-- 打开页面，一个盒子从左边到右边 -->
+    <style>
+        /* 定义动画 */
+        @keyframes move {
+
+            /* 动画序列 */
+            /* 1.可以做多个状态的变化keyframe关键帧 */
+            /* 2.里面的百分比是要整数，就是总时间的比例 */
+            /* 开始状态 */
+            /* from {
+                transform: translateX(0px);
+            }
+
+            to {
+                transform: translateX(1000px);
+            } */
+            0% {
+                transform: translate(0, 0);
+            }
+
+            25% {
+                transform: translate(1000px, 0);
+            }
+
+            50% {
+                transform: translate(1000px, 500px);
+            }
+
+            75% {
+                transform: translate(0, 500px);
+            }
+
+            /* 
+            100% {
+                transform: translate(0, 0px);
+            } */
+        }
+
+        /* 2.调用动画 */
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* 动画名称 */
+            animation-name: move;
+            /* 持续时间 */
+            animation-duration: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

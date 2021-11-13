@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合案例-产品模块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(245, 245, 245);
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .box {
+            /* position: relative; */
+            width: 298px;
+            height: 415px;
+            background-color: #fff;
+            /* 让块级的盒子水平居中对齐 */
+            margin: 100px auto;
+            overflow: hidden;
+        }
+
+        .phone_picture_row {
+            /* position: absolute; */
+            /* 图片的宽度和父亲一样宽 */
+            /* left: 500px; */
+            width: 50%;
+            margin: 0px auto;
+            /* height: 200px; */
+        }
+
+        .review {
+            height: 70px;
+            font-size: 14px;
+            /* 因为这个段落没有width属性，所有padding不会撑开盒子的宽度 */
+            padding: 0 28px;
+            margin-top: 30px;
+        }
+
+        .appraise {
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-top: 20px;
+            padding: 0 28px;
+        }
+
+        .info {
+            font-size: 14px;
+            margin-top: 15px;
+            padding: 0 28px;
+        }
+
+        .info h4 {
+            display: inline-block;
+            font-weight: 400;
+        }
+
+        .info span {
+            display: inline-block;
+            font-weight: 400;
+            color: #ff6700;
+        }
+
+        .info em {
+            font-style: normal;
+            color: #ebe4e0;
+            margin: 0 6px 0 15px;
+        }
+
+        .bar {
+            width: 150px;
+            height: 15px;
+            border: 1px solid red;
+            border-radius: 7px;
+            padding: 1px;
+        }
+
+        .bar_in {
+            width: 50%;
+            height: 100%;
+            background-color: red;
+            /* 谁做过渡给谁加 */
+            transition: all .7s;
+        }
+
+        .bar:hover .bar_in {
+            width: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="phone_picture_row">
+            <a href="#"><img src="images/xiaomi_phone.webp" alt=""></a>
+        </div>
+        <p class="review">
+            <a href="#">小米手机</a>
+        </p>
+        <div class="price">
+            <span>￥6088</span><em>6988</em>
+        </div>
+        <div class="bar_row">
+            <span>已售</span>
+            <span>87%</span>
+            <div class="bar">
+                <div class="bar_in"></div>
+            </div>
+            <span>剩余</span>
+            <span>29</span>
+            <span>件</span>
+        </div>
+        <input type="button" value="立即抢购">
+
+    </div>
+</body>
+
+</html>

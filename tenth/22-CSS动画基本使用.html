@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML动画基本使用</title>
+    <!-- 打开页面，一个盒子从左边到右边 -->
+    <style>
+        /* 定义动画 */
+        @keyframes move {
+
+            /* 开始状态 */
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: translateX(1000px);
+            }
+        }
+
+        /* 2.调用动画 */
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* 动画名称 */
+            animation-name: move;
+            /* 持续时间 */
+            animation-duration: 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

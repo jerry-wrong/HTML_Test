@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二倍图做法</title>
+    <style>
+        /* 图片放大二倍会失真 */
+        /* 目的： 如果需要一个50*50像素的图片 */
+        /* 放到手机里会放大2倍，成为100*100 */
+        /* 所以需要直接放100*100图片，不过手动缩小为50*50 */
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 模糊的 -->
+    <img src="images/apple50.jpg" alt="">
+    <!-- 采用二倍图 -->
+    <img src="images/apple100.jpg" alt="">
+
+</body>
+
+</html>

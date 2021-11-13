@@ -1,0 +1,168 @@
+/* 全局CSS */
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #cedbe1; */
+}
+.w{
+    width: 1920px;
+    margin: auto;
+
+}
+body{
+    background-color: #cedbe1;
+}
+li{
+    list-style: none;
+}
+.header{
+    height: 106px;
+    background-color: rgb(8, 27, 41);
+    /* background-color: pink; */
+}
+
+.logo{
+    float: left;
+    width: 59px;
+    height: 59px;
+    margin: 24px 36px 20px 47px;
+}
+.logoname{
+    float: left;
+    height: 106px;
+    line-height: 106px;
+    font-size: 40px;
+    color: #ffffff;
+
+}
+.logodata{
+    float:right;
+    height: 106px;
+    width: 212px;
+    background-color: #0b2532;
+ 
+}
+.logodata input
+    {
+        width: 154px;
+        margin-left: 37px;
+        margin-top: 44px;
+        border: 0;
+        background-color: #0b2532;
+        color: #5a9cbc;
+    }
+table
+{
+    height: 156px;
+    background-color:#cedbe1
+}
+table thead tr th
+{
+    border: 2px #cedbe1 solid;
+    height: 44px;
+    width: 325px;
+    margin: 1px;
+    margin-top: 12px;
+    font-size: 22px;
+    color: #214659;
+    text-align: center;
+    background-color: #ffffff;
+}
+table tbody tr td
+{
+    height: 51px;
+    border: 2px #cedbe1 solid;
+    margin: 1px;
+    font-size: 20px;
+    color: #6a6a6a;
+    text-align: center;
+    background-color: #ffffff;
+}
+ul{
+    height: 15px;
+    margin-top: 19px;
+    margin-bottom: 31px;
+    /* background-color: pink; */
+}
+ul li{
+    float: left;
+            width: 15px;
+            height: 15px;
+            background-color: #e3ecf3;
+            border-radius: 50%;
+            margin-left: 176px;
+}
+ul .selected{
+    margin-left: 579px;
+}
+.table1{
+    float: left;
+ width: 580px;
+ height: 717px;  
+ border-radius: 10px; 
+ background-color: #fff;
+ margin-left: 32px;
+}
+.th1{
+    height: 82px;
+    overflow: hidden;
+}
+.nav1{
+    width: 62px;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 22px;
+    border-radius: 16px;
+    background-color: #a0a0a0;
+    box-shadow:3px 3px 3px 1px #a0a0a0;
+}
+
+.td11,
+.td12,
+.td13,
+.td14,
+.td15,
+.td16,
+.td17,
+.td18,
+.td19{
+    float: left;
+    width: 92px;
+    height: 104px;}
+.td11,.td12,.td13{
+    margin-top: 30px;
+}
+.td14,
+.td15,
+.td16,
+.td17,
+.td18,
+.td19{
+    margin-top: 128px;
+}
+.td11,
+.td14,
+.td17{
+    margin-left: 62px;
+}
+.td12,
+.td13,
+.td15,
+.td16,
+.td18,
+.td19{
+    margin-left: 94px;
+}
+
+.table2,
+.table3{
+    float: left;
+ width: 580px;
+ height: 717px;  
+ border-radius: 10px; 
+ background-color: #fff;
+ margin-left: 54px;
+}
+
+
+
