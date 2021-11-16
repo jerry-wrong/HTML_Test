@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05_flex-wrap子元素是否换行</title>
+    <style>
+        div {
+            /* 给父级添加flex属性 */
+            display: flex;
+            width: 80%;
+            height: 300px;
+            background-color: pink;
+            /* 默认的主轴是x轴 */
+            /* 主轴方向 */
+            justify-content: center;
+            /* 侧轴方向：居中 */
+            /* align-items: center; */
+            align-items: stretch;
+
+        }
+
+        div span {
+            width: 150px;
+            height: 100px;
+            background-color: purple;
+            color: #fff;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+
+
+    </div>
+</body>
+
+</html>
